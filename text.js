@@ -15,7 +15,9 @@ function text(body, opts) {
 	code = code || 200;
 
 	if(charset !== false) {
-		charset = 'utf-8';
+		if(typeof charset !== 'string') {
+			charset = 'utf-8';
+		}
 	}
 
 	if(charset) {
