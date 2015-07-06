@@ -4,7 +4,7 @@
   "description": "Convenience middleware for sending text",
   "main": "text.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/download13/sw-text/issues"
   },
-  "homepage": "https://github.com/download13/sw-text"
+  "homepage": "https://github.com/download13/sw-text",
+  "devDependencies": {
+    "http-router-fn": "0.0.1",
+    "mw-compose": "0.0.0",
+    "supertest": "^1.0.1"
+  }
 }
