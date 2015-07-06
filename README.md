@@ -9,7 +9,7 @@ Convenience middleware for sending text. Adds a `.text()` method to the `res` ob
 ## Example
 
 ```javascript
-var text = require('sw-tex');
+var text = require('sw-text');
 
 // With express
 app.use(text);
