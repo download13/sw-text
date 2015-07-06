@@ -1,6 +1,6 @@
 {
   "name": "sw-text",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convenience middleware for sending text",
   "main": "text.js",
   "scripts": {
